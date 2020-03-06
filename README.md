@@ -5,3 +5,6 @@
 - NET Core 3.1
 
 请先安装 .NET Core 3.1 运行时和 SDK
+
+### 运行效果
+![xxxx](bg.png)
