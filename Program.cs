@@ -20,7 +20,7 @@ namespace web
             var htmlDoc = new HtmlDocument();
             htmlDoc.LoadHtml(html);
             
-            string str = "//*[@id='bgLink']";
+            string str = "//*[@id='preloadBg']";
             var imgPath = htmlDoc.DocumentNode.SelectSingleNode(str).Attributes["href"].Value;
 
             new WebClient().DownloadFile($"https://cn.bing.com{imgPath}", "bg.jpg");
